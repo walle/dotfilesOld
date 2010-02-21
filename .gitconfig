@@ -1,0 +1,11 @@
+[user]
+	name = Fredrik Wallgren
+	email = fredrik.wallgren@gmail.com
+
+[color]  # Ensure we get color
+  diff   = auto
+  branch = auto
+  status = auto
+  
+[diff]
+    rename = copy

@@ -1,6 +1,9 @@
 # cd
 alias ..='cd ..'
  
+#nano
+alias nano='nano -w'
+
 # ls
 alias ls="ls -A --color=auto"
 alias l="ls -lAh --color=auto"
@@ -18,3 +21,4 @@ alias gb='git branch'
 alias gs='git status'
 alias ga='git add'
 alias gg='git log'
+alias gps='git log --pretty=oneline origin..master '
