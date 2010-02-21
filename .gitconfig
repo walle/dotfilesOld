@@ -9,3 +9,6 @@
   
 [diff]
     rename = copy
+    
+[core]
+	excludesfile = ~/.gitignore
