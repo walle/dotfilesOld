@@ -21,4 +21,4 @@ alias gb='git branch'
 alias gs='git status'
 alias ga='git add'
 alias gg='git log'
-alias gps='git log --pretty=oneline origin..master '
+alias gps='git log --pretty=oneline origin/master..' # This requires a remote masterbranch
