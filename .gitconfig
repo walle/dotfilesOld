@@ -8,7 +8,10 @@
   status = auto
   
 [diff]
-    rename = copy
+  rename = copy
+
+[push]
+  default = current
     
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
