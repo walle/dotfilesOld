@@ -1,6 +1,6 @@
 [user]
-	name = Fredrik Wallgren
-	email = fredrik.wallgren@gmail.com
+  name = Fredrik Wallgren
+  email = fredrik.wallgren@gmail.com
 
 [color]  # Ensure we get color
   diff   = auto
