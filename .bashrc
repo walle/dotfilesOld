@@ -17,3 +17,6 @@ fi
  
 # Aliases
 if [ -s ~/.bash_aliases ] ; then source ~/.bash_aliases ; fi
+
+# rvm
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
