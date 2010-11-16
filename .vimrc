@@ -44,4 +44,8 @@ map <space> /
 map <c-space> ?
 map <silent> <leader><cr> :noh<cr>
 
+" Map Ctrl + h to previous tab and Ctrl + l to next tab 
+nmap <C-H> :tabprev<CR>
+nmap <C-L> :tabnext<CR>
+
 iab xdate <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
