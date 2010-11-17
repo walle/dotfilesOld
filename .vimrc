@@ -8,6 +8,7 @@ set expandtab
 set autoread
 set ignorecase
 set smartcase
+set number
 set incsearch
 set hlsearch
 set nolazyredraw
