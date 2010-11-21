@@ -25,7 +25,27 @@ set noswapfile
 set magic
 set nowrap
 
-colorscheme wombat
+"
+" appearance options
+"
+set bg=dark
+let g:zenburn_high_Contrast = 1
+let g:liquidcarbon_high_contrast = 1
+let g:molokai_original = 1
+set t_Co=256
+colorscheme molokai
+
+if has("gui_running")
+  " set default size: 90x35
+  set columns=90
+  set lines=35
+  " No menus and no toolbar
+  set guioptions-=m
+  set guioptions-=T
+  let g:obviousModeInsertHi = "guibg=Black guifg=White"
+else
+  let g:obviousModeInsertHi = "ctermfg=253 ctermbg=16"
+endif
 
 syntax enable
 filetype plugin on
