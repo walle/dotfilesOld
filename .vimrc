@@ -25,6 +25,8 @@ set noswapfile
 set magic
 set nowrap
 
+colorscheme wombat
+
 syntax enable
 filetype plugin on
 filetype indent on
