@@ -1,1 +1,8 @@
 A collection of dotfiles i use.
+
+Contains dotfiles for
+* git
+* ruby
+* vim
+* zsh
+* bash
