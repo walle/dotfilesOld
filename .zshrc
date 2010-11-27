@@ -78,3 +78,4 @@ function title {
 
 # Customize to your needs...
 export PATH=/home/walle/.rvm/gems/ruby-1.9.2-p0/bin:/bin:/home/walle/.rvm/rubies/ruby-1.9.2-p0/bin:/home/walle/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+fpath=(~/.zsh/Completion $fpath)
