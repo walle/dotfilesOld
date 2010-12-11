@@ -40,8 +40,8 @@ if has("gui_running")
   set columns=90
   set lines=35
   " No menus and no toolbar
-  set guioptions-=m
-  set guioptions-=T
+  "set guioptions-=m
+  "set guioptions-=T
   let g:obviousModeInsertHi = "guibg=Black guifg=White"
 else
   let g:obviousModeInsertHi = "ctermfg=253 ctermbg=16"
@@ -71,5 +71,7 @@ map <silent> <leader><cr> :noh<cr>
 " Map Ctrl + h to previous tab and Ctrl + l to next tab 
 nmap <C-H> :tabprev<CR>
 nmap <C-L> :tabnext<CR>
+
+nmap <C-F> ::FufFile<CR>
 
 iab xdate <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
