@@ -63,19 +63,7 @@ alias ga='git add'
 alias gg='git log'
 alias gps='git log --pretty=oneline origin/master..' # This requires a remote masterbranch
 
-
-#TERM
-function title {
-      if [[ $TERM == "screen" ]]; then
-        # Use these two for GNU Screen:
-        print -nR $' 33k'$1$' 33'\
-        print -nR $' 33]0;'$2$''
-      elif [[ $TERM == "xterm" || $TERM == "rxvt" ]]; then
-        # Use this one instead for XTerms:
-        print -nR $' 33]0;'$*$''
-      fi
-}
-
 # Customize to your needs...
-export PATH=/home/walle/.rvm/gems/ruby-1.9.2-p0/bin:/bin:/home/walle/.rvm/rubies/ruby-1.9.2-p0/bin:/home/walle/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 fpath=(~/.zsh/Completion $fpath)
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # Load RVM into a shell session *as a function*
