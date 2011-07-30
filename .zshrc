@@ -10,7 +10,7 @@ export CASE_SENSITIVE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rails ruby gem github)
+plugins=(git rails ruby rvm gem github bundler thor)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -40,7 +40,7 @@ alias ..='cd ..'
 alias ...='../..'
 alias ....='../../..'
 alias .....='../../../..'
- 
+
 #nano
 alias nano='nano -w'
 
@@ -49,7 +49,7 @@ alias ls="ls -A --color=auto"
 alias l="ls -lAh --color=auto"
 alias ll="ls -lah --color=auto"
 alias la='ls -la --color=auto'
- 
+
 # git
 alias gl='git pull'
 alias gp='git push'
