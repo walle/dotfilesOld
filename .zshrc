@@ -10,7 +10,7 @@ export CASE_SENSITIVE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rails ruby rvm gem github bundler thor)
+plugins=(git rails ruby rvm gem github bundler thor gas)
 
 source $ZSH/oh-my-zsh.sh
 
