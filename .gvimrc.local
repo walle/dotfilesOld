@@ -1,5 +1,3 @@
-"
-"" appearance options
 set bg=dark
 let g:zenburn_high_Contrast = 1
 let g:liquidcarbon_high_contrast = 1
@@ -7,11 +5,16 @@ let g:molokai_original = 1
 set t_Co=256
 colorscheme molokai
 
-" Open ColorHighlight automatically
-au VimEnter * ColorHighlight
+" set default size
+set columns=140
+set lines=50
+let g:obviousModeInsertHi = "guibg=Black guifg=White"
 
-" Remove trailing whitespace
-autocmd BufWritePre * :%s/\s\+$//e
+source $VIMRUNTIME/mswin.vim
+behave mswin
+
+" Enable indent
+set selectmode=
 
 " Remove bells
 set noerrorbells
