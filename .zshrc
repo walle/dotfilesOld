@@ -45,10 +45,10 @@ alias .....='../../../..'
 alias nano='nano -w'
 
 # ls
-alias ls="ls -A --color=auto"
-alias l="ls -lAh --color=auto"
-alias ll="ls -lah --color=auto"
-alias la='ls -la --color=auto'
+alias ls="ls -A"
+alias l="ls -lAh"
+alias ll="ls -lah"
+alias la='ls -la'
 
 # git
 alias gl='git pull'
