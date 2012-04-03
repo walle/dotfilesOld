@@ -1,1 +1,13 @@
 color molokai
+
+" set default size
+set columns=140
+set lines=50
+let g:obviousModeInsertHi = "guibg=Black guifg=White"
+
+" Enable indent
+set selectmode=
+
+" Remove bells
+set noerrorbells
+set novisualbell
