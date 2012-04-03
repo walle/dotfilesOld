@@ -1,0 +1,6 @@
+[submodule ".janus/colorizer"]
+	path = .janus/colorizer
+	url = https://github.com/vim-scripts/colorizer.git
+[submodule ".janus/velocity"]
+	path = .janus/velocity
+	url = https://github.com/vim-scripts/velocity.vim.git
