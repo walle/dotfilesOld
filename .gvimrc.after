@@ -1,13 +1,30 @@
-color molokai
+" Font and theme settings
+set guifont=Monaco:h13
+set background=dark
+colorscheme solarized
 
-" set default size
-set columns=140
-set lines=50
-let g:obviousModeInsertHi = "guibg=Black guifg=White"
+" Don't show MacVim's toolbar
+set guioptions-=T
 
-" Enable indent
-set selectmode=
-
-" Remove bells
+" Don't use visual bells
 set noerrorbells
 set novisualbell
+
+" Remove trailing whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
+
+" Don't show intro message
+set shortmess+=I
+
+" Always use Visual Mode
+set selectmode=
+
+" Arrow keys should not stop Visual mode
+set keymodel-=stopsel
+
+" Word wrap without linebreaks
+set wrap
+set linebreak
+set nolist
+set textwidth=0
+set wrapmargin=0

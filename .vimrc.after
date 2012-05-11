@@ -1,11 +1,21 @@
-color molokai
-
-" Open ColorHighlight automatically
-au VimEnter * ColorHighlight
-
-" Remove trailing whitespace
+" Remove trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
-" Remove bells
-set noerrorbells
-set novisualbell
+" Don't show intro message
+set shortmess+=I
+
+" Always use Visual Mode
+set selectmode=
+
+" Arrow keys should not stop Visual mode
+set keymodel-=stopsel
+
+" Word wrap without linebreaks
+set wrap
+set linebreak
+set nolist
+set textwidth=0
+set wrapmargin=0
+
+" *.vm files are velocity
+au! BufRead,BufNewFile *.vm setfiletype velocity
