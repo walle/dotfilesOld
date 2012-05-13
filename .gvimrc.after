@@ -12,3 +12,6 @@ behave mswin
 
 " Set initial size
 set lines=50 columns=150
+
+" Always use Visual Mode
+set selectmode=
