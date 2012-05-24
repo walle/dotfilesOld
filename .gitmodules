@@ -4,3 +4,6 @@
 [submodule ".janus/velocity"]
 	path = .janus/velocity
 	url = https://github.com/vim-scripts/velocity.vim.git
+[submodule ".janus/vim-less"]
+	path = .janus/vim-less
+	url = https://github.com/groenewege/vim-less.git
